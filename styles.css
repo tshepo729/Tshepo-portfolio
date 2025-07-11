@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tshepo's Portfolio</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Font Awesome (Icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/tshepo.jpg" alt="Tshepo Nkadimeng" class="profile-pic" />
+    <h1>Tshepo Nkadimeng</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <!-- Navigation with dropdown and icons -->
+  <nav class="navbar">
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fas fa-folder-open"></i> Projects ▼</button>
+      <div class="dropdown-content">
+        <a href="projects.html"><i class="fas fa-th-list"></i> All Projects</a>
+        <a href="websites.html"><i class="fas fa-code"></i> Websites</a>
+        <a href="apps.html"><i class="fas fa-mobile-alt"></i> Apps</a>
+      </div>
+    </div>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Tshepo, learning to build websites using HTML, CSS, and JavaScript. I enjoy creating clean, simple, and functional designs.</p>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required /><br />
+      <input type="email" placeholder="Your Email" required /><br />
+      <textarea placeholder="Your Message" rows="5" required></textarea><br />
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:you@example.com"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Tshepo Nkadimeng. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
